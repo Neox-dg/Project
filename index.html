@@ -2,15 +2,35 @@
 <html lang="sl">
 <head>
   <meta charset="UTF-8">
-  <title>Moj Vercel projekt Branch 2</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Moj Portfolio</title>
   <link rel="stylesheet" href="style.css">
 </head>
 <body>
+  <header>
+    <h1>Moje Ime</h1>
+    <p>Spletni razvijalec / Oblikovalec</p>
+  </header>
+
   <main>
-    <h1>Moj Vercel projekt</h1>
-    <p>To je enostaven projekt, objavljen na Vercelu.</p>
-    <button onclick="showMessage()">Preveri delovanje</button>
-    <p id="message"></p>
+    <section id="about">
+      <h2>O meni</h2>
+      <p>Dobrodošli na mojem portfoliu. Tukaj so zbrani moji projekti in spretnosti.</p>
+    </section>
+
+    <section id="projects">
+      <h2>Projekti</h2>
+      <ul>
+        <li><strong>Projekt 1:</strong> Kratek opis projekta.</li>
+        <li><strong>Projekt 2:</strong> Kratek opis projekta.</li>
+      </ul>
+    </section>
+
+    <section id="contact">
+      <h2>Kontakt</h2>
+      <button onclick="showMessage()">Pokaži kontakt</button>
+      <p id="message"></p>
+    </section>
   </main>
 
   <script src="script.js"></script>
